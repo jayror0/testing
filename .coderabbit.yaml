@@ -1,0 +1,24 @@
+# Minimal configuration for getting started
+language: "en-US"
+
+reviews:
+  profile: "chill"
+  high_level_summary: true
+  suggested_reviewers: true
+  auto_assign_reviewers: true
+  auto_review:
+    enabled: true
+    drafts: false
+
+    # Quality gates
+  pre_merge_checks:
+    title:
+      mode: "error"
+      requirements: "Use conventional commit format"
+    description:
+      mode: "warning"
+
+  # Label management
+  suggested_labels: true
+  auto_apply_labels: true
+  
