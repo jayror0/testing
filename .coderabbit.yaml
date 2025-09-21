@@ -10,15 +10,10 @@ reviews:
     enabled: true
     drafts: false
 
-    # Quality gates
-  pre_merge_checks:
-    title:
-      mode: "error"
-      requirements: "Use conventional commit format"
-    description:
-      mode: "warning"
-
   # Label management
   suggested_labels: true
   auto_apply_labels: true
+
+
+  poem: false
   
